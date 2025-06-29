@@ -35,12 +35,12 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/mrush1k/portfolio-new',
     },
     {
-      title: 'Task Manager App',
+      title: 'TaskFlow App',
       description: 'A full-stack task management application with user authentication, task categorization, real-time updates, and modern UI design.',
       image: 'https://images.pexels.com/photos/2764678/pexels-photo-2764678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
       techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
-      githubUrl: 'https://github.com/mrushikz/task-manager',
-      liveUrl: 'https://taskify-app.vercel.app',
+      githubUrl: 'https://github.com/mrush1k/Task-Manager',
+      liveUrl: 'https://task-manager-delta-two-10.vercel.app/',
     },
   ];
 
