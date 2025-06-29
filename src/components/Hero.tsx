@@ -51,7 +51,10 @@ const Hero: React.FC = () => {
             transition={{ duration: 1.2, delay: 0.2 }}
           >
             <span className="text-soft-white">Hi, I'm </span>
-            <span className="text-luxury-white" style={{ textShadow: '0 4px 20px rgba(245, 240, 236, 0.3)' }}>
+            <span style={{ 
+              color: '#F0FFFF', 
+              textShadow: '0 0 30px rgba(0, 191, 255, 0.4), 0 0 60px rgba(0, 191, 255, 0.2), 0 4px 20px rgba(0, 100, 150, 0.3)' 
+            }}>
               Mrushik Zalawadiya
             </span>
           </motion.h1>
@@ -81,9 +84,13 @@ const Hero: React.FC = () => {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              className="text-luxury-white font-bold"
-              style={{ textShadow: '0 2px 12px rgba(245, 240, 236, 0.4)' }}
+              className="font-bold"
+              style={{ 
+                color: '#F0FFFF', 
+                textShadow: '0 0 25px rgba(0, 191, 255, 0.5), 0 0 50px rgba(0, 191, 255, 0.3), 0 2px 15px rgba(0, 150, 200, 0.4)' 
+              }}
             />
+            
           </motion.h2>
           
           <motion.p 
